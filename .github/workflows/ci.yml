@@ -20,7 +20,7 @@ jobs:
         with:
           egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
-      - uses: actions/checkout@dc323e67f16fb5f7663d20ff7941f27f5809e9b6
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab
       - name: Setup jdk-17
         uses: actions/setup-java@ea15b3b99cdc9ac45af1882d085e3f9297a75a8b
         with:
